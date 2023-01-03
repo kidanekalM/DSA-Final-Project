@@ -10,7 +10,7 @@ namespace Drive_through.domain
     {
         public int FoodID { get; set; }
         public string Name { get; set; }
-        public int Time { get; set; }
+        public int TimeInMin { get; set; }
         public double Price { get; set; }
     }
 }

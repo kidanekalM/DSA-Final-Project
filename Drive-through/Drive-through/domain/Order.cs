@@ -18,7 +18,7 @@ namespace Drive_through.domain
             set { _foods = value;
                 foreach(Food food in _foods)
                 {
-                    _totalTime += food.Time;
+                    _totalTime += food.TimeInMin;
                     _totalPrice+= food.Price;
                 }     
             }
@@ -26,6 +26,7 @@ namespace Drive_through.domain
         private int _totalTime;
         public int TotalTime
         {
+            set { _totalTime = value; }
             get { return _totalTime; }
         }
 

@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="domain\Food.cs" />
     <Compile Include="domain\Order.cs" />
+    <Compile Include="domain\Queue.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

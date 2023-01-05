@@ -49,6 +49,7 @@
     <Compile Include="domain\Food.cs" />
     <Compile Include="domain\Order.cs" />
     <Compile Include="domain\Queue.cs" />
+    <Compile Include="domain\Tree.cs" />
     <Compile Include="FoodDisplay.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -66,6 +67,9 @@
     <EmbeddedResource Include="FoodDisplay.resx">
       <DependentUpon>FoodDisplay.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -74,6 +78,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -87,6 +92,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VeggiePizza.jpg" />
+    <None Include="Resources\VeganPizza.jpg" />
+    <None Include="Resources\sprite.jpg" />
+    <None Include="Resources\SpecialPizza.jpg" />
+    <None Include="Resources\PerperonniPizza.jpg" />
+    <None Include="Resources\pepsi.jpg" />
+    <None Include="Resources\MushroomPizza.jpg" />
+    <None Include="Resources\MountainDew.jpg" />
+    <None Include="Resources\mirinda.jpg" />
+    <None Include="Resources\fanta.jpg" />
+    <None Include="Resources\cokeDrink.jpg" />
+    <None Include="Resources\ChicagoPIzza.jpg" />
+    <None Include="Resources\CheesePizza.jpg" />
+    <None Include="Resources\7up.jpg" />
+    <None Include="Resources\Ambo.jpg" />
+    <Content Include="Resources\beefBurger.jpg" />
+    <None Include="Resources\veggieBurger.jpg" />
+    <None Include="Resources\veganBurger.jpg" />
+    <None Include="Resources\turkeyBurger.jpg" />
+    <None Include="Resources\salmonBurger.jpg" />
+    <None Include="Resources\doubleBurger.jpg" />
+    <None Include="Resources\chickenBurger.jpg" />
+    <None Include="Resources\beefBurger1.jpg" />
+    <None Include="Resources\BeefPizza.jpg" />
+    <Content Include="Resources\CheeseBurger.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

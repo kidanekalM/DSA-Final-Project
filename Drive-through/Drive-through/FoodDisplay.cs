@@ -17,10 +17,5 @@ namespace Drive_through
         {
             InitializeComponent();
         }
-        
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

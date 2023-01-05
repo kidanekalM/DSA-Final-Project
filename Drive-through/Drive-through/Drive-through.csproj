@@ -49,6 +49,12 @@
     <Compile Include="domain\Food.cs" />
     <Compile Include="domain\Order.cs" />
     <Compile Include="domain\Queue.cs" />
+    <Compile Include="FoodDisplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FoodDisplay.Designer.cs">
+      <DependentUpon>FoodDisplay.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +63,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FoodDisplay.resx">
+      <DependentUpon>FoodDisplay.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

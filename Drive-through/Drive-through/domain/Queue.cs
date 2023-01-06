@@ -25,5 +25,14 @@ namespace Drive_through.domain
             GC.Collect();
             return curData;
         }
+
+        bool isEmpty()
+        {
+            if(front == null)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

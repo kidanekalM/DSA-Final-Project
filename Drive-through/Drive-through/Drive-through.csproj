@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminMainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMainPage.Designer.cs">
+      <DependentUpon>AdminMainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillsPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillsPanel.Designer.cs">
+      <DependentUpon>BillsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardPanel.Designer.cs">
+      <DependentUpon>DashboardPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="domain\Food.cs" />
     <Compile Include="domain\Order.cs" />
     <Compile Include="domain\Queue.cs" />
@@ -62,13 +80,31 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HomePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePanel.Designer.cs">
+      <DependentUpon>HomePanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdminMainPage.resx">
+      <DependentUpon>AdminMainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillsPanel.resx">
+      <DependentUpon>BillsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardPanel.resx">
+      <DependentUpon>DashboardPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FoodDisplay.resx">
       <DependentUpon>FoodDisplay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePanel.resx">
+      <DependentUpon>HomePanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -94,6 +130,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\BillsBtn.png" />
+    <Content Include="Resources\DashboardActive.png" />
+    <Content Include="Resources\DashboardBtn.png" />
+    <Content Include="Resources\HomeActiveBtn.png" />
+    <Content Include="Resources\HomeBtn.png" />
+    <Content Include="Resources\LogoutBtn.png" />
+    <Content Include="Resources\NotificationBtn.png" />
+    <Content Include="Resources\SupportBtn.png" />
     <None Include="Resources\VeggiePizza.jpg" />
     <None Include="Resources\VeganPizza.jpg" />
     <None Include="Resources\sprite.jpg" />
@@ -118,6 +162,7 @@
     <None Include="Resources\chickenBurger.jpg" />
     <None Include="Resources\beefBurger1.jpg" />
     <None Include="Resources\BeefPizza.jpg" />
+    <Content Include="Resources\BillsActive.png" />
     <Content Include="Resources\CheeseBurger.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -141,6 +141,7 @@
   <ItemGroup>
     <None Include="Resources\SupportBtn1.png" />
     <None Include="Resources\BillsActive1.png" />
+    <None Include="Resources\BillActive1.png" />
     <Content Include="Resources\BillsBtn.png" />
     <None Include="Resources\BillsBtn1.png" />
     <Content Include="Resources\DashboardActive.png" />

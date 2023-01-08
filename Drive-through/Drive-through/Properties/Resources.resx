@@ -118,103 +118,106 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="beefBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\beefBurger1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="salmonBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\salmonBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BeefPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BeefPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mirinda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mirinda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CheesePizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CheesePizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CheeseBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CheeseBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="doubleBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\doubleBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="turkeyBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\turkeyBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sprite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="veganBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\veganBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PerperonniPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PerperonniPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="veggieBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\veggieBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="VeggiePizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\VeggiePizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pepsi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pepsi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SpecialPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SpecialPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="7up" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cokeDrink" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cokeDrink.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="VeganPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\VeganPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ChicagoPIzza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChicagoPIzza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MushroomPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MushroomPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fanta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fanta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MountainDew" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MountainDew.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LogoutBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogoutBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ambo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ambo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="chickenBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chickenBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NotificationBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NotificationBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BillsActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BillsActive1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="turkeyBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turkeyBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BillsBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BillsBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="7up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DashboardActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DashboardActive1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fanta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fanta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DashboardBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DashboardBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cokeDrink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cokeDrink.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HomeActiveBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HomeActiveBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sprite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HomeBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HomeBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LogoutBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LogoutBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MountainDew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MountainDew.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NotificationBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NotificationBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CheeseBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CheeseBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beefBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beefBurger1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pepsi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pepsi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PerperonniPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PerperonniPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mirinda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mirinda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="veganBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\veganBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DashboardBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DashboardBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DashboardActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DashboardActive1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CheesePizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CheesePizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BillsBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BillsBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MushroomPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salmonBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salmonBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VeggiePizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VeggiePizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BillsActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BillsActive1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SupportBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SupportBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chickenBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chickenBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doubleBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doubleBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChicagoPIzza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChicagoPIzza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeefPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BeefPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VeganPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VeganPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HomeActiveBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HomeActiveBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="veggieBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\veggieBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BillActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BillActive1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

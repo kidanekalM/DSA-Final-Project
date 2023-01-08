@@ -103,6 +103,16 @@ namespace Drive_through.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BillActive {
+            get {
+                object obj = ResourceManager.GetObject("BillActive", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BillsActive {
             get {
                 object obj = ResourceManager.GetObject("BillsActive", resourceCulture);

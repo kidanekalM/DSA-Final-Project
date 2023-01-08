@@ -45,18 +45,26 @@ namespace Drive_through
 
         private void BtnPbHome_Click(object sender, EventArgs e)
         {
-           //BtnPbHome.Image = global::Drive_through.Properties.Resources.HomeActiveBtn;
-           openChildForm(new HomePanel());
+           BtnPbHome.Image = global::Drive_through.Properties.Resources.HomeActiveBtn;
+           BtnPbDashboard.Image = global::Drive_through.Properties.Resources.DashboardBtn;
+           BtnPbBills.Image = global::Drive_through.Properties.Resources.BillsBtn;
+            openChildForm(new HomePanel());
         }
 
         private void BtnPbDashboard_Click(object sender, EventArgs e)
         {
+            BtnPbHome.Image = global::Drive_through.Properties.Resources.HomeBtn;
+            BtnPbDashboard.Image = global::Drive_through.Properties.Resources.DashboardActive;
+            BtnPbBills.Image = global::Drive_through.Properties.Resources.BillsBtn;
             openChildForm(new DashboardPanel());
 
         }
 
         private void BtnPbBills_Click(object sender, EventArgs e)
         {
+            BtnPbHome.Image = global::Drive_through.Properties.Resources.HomeBtn;
+            BtnPbDashboard.Image = global::Drive_through.Properties.Resources.DashboardBtn;
+            BtnPbBills.Image = global::Drive_through.Properties.Resources.BillActive;
             openChildForm(new BillsPanel());
 
         }

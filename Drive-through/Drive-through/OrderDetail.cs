@@ -19,7 +19,7 @@ namespace Drive_through
 
         private void OrderDetail_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

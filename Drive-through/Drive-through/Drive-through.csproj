@@ -139,13 +139,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\SupportBtn1.png" />
+    <None Include="Resources\BillsActive1.png" />
     <Content Include="Resources\BillsBtn.png" />
+    <None Include="Resources\BillsBtn1.png" />
     <Content Include="Resources\DashboardActive.png" />
+    <None Include="Resources\DashboardActive1.png" />
     <Content Include="Resources\DashboardBtn.png" />
+    <None Include="Resources\DashboardBtn1.png" />
     <Content Include="Resources\HomeActiveBtn.png" />
+    <None Include="Resources\HomeActiveBtn1.png" />
     <Content Include="Resources\HomeBtn.png" />
+    <None Include="Resources\HomeBtn1.png" />
     <Content Include="Resources\LogoutBtn.png" />
+    <None Include="Resources\LogoutBtn1.png" />
     <Content Include="Resources\NotificationBtn.png" />
+    <None Include="Resources\NotificationBtn1.png" />
     <Content Include="Resources\SupportBtn.png" />
     <None Include="Resources\VeggiePizza.jpg" />
     <None Include="Resources\VeganPizza.jpg" />

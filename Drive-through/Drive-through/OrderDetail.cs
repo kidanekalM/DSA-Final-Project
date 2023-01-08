@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Drive_through.User_controls
+namespace Drive_through
 {
-    public partial class Tripple_burgers : UserControl
+    public partial class OrderDetail : UserControl
     {
-        public Tripple_burgers()
+        public OrderDetail()
         {
             InitializeComponent();
+        }
+
+        private void OrderDetail_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

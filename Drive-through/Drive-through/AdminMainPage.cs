@@ -45,7 +45,7 @@ namespace Drive_through
 
         private void BtnPbHome_Click(object sender, EventArgs e)
         {
-           // BtnPbHome.Image = global::Drive_through.Properties.Resources.HomeActiveBtn;
+           //BtnPbHome.Image = global::Drive_through.Properties.Resources.HomeActiveBtn;
            openChildForm(new HomePanel());
         }
 

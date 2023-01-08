@@ -16,5 +16,28 @@ namespace Drive_through
         {
             InitializeComponent();
         }
+
+        private void DashboardPanel_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            OrderDetail p = new OrderDetail();
+       
+            OrdersListContainer.Controls.Add(p);
+        }
+
+        private void txtSearchByName_Enter(object sender, EventArgs e)
+        {
+            txtSearchByName.Text = "";
+        }
+
+        private void txtSearchByName_Leave(object sender, EventArgs e)
+        {
+            txtSearchByName.Text = "Search for Order";
+
+        }
     }
 }

@@ -103,26 +103,6 @@ namespace Drive_through.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BillsActive {
-            get {
-                object obj = ResourceManager.GetObject("BillsActive", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap BillsBtn {
-            get {
-                object obj = ResourceManager.GetObject("BillsBtn", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap CheeseBurger {
             get {
                 object obj = ResourceManager.GetObject("CheeseBurger", resourceCulture);
@@ -173,26 +153,6 @@ namespace Drive_through.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DashboardActive {
-            get {
-                object obj = ResourceManager.GetObject("DashboardActive", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap DashboardBtn {
-            get {
-                object obj = ResourceManager.GetObject("DashboardBtn", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap doubleBurger {
             get {
                 object obj = ResourceManager.GetObject("doubleBurger", resourceCulture);
@@ -206,36 +166,6 @@ namespace Drive_through.Properties {
         internal static System.Drawing.Bitmap fanta {
             get {
                 object obj = ResourceManager.GetObject("fanta", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap HomeActiveBtn {
-            get {
-                object obj = ResourceManager.GetObject("HomeActiveBtn", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap HomeBtn {
-            get {
-                object obj = ResourceManager.GetObject("HomeBtn", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap LogoutBtn {
-            get {
-                object obj = ResourceManager.GetObject("LogoutBtn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -266,16 +196,6 @@ namespace Drive_through.Properties {
         internal static System.Drawing.Bitmap MushroomPizza {
             get {
                 object obj = ResourceManager.GetObject("MushroomPizza", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap NotificationBtn {
-            get {
-                object obj = ResourceManager.GetObject("NotificationBtn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -326,16 +246,6 @@ namespace Drive_through.Properties {
         internal static System.Drawing.Bitmap sprite {
             get {
                 object obj = ResourceManager.GetObject("sprite", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap SupportBtn {
-            get {
-                object obj = ResourceManager.GetObject("SupportBtn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

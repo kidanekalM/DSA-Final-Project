@@ -94,13 +94,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\SupportBtn.png" />
-    <None Include="Resources\NotificationBtn.png" />
-    <None Include="Resources\LogoutBtn.png" />
-    <None Include="Resources\HomeBtn.png" />
-    <None Include="Resources\HomeActiveBtn.png" />
-    <None Include="Resources\DashboardBtn.png" />
-    <None Include="Resources\DashboardActive.png" />
     <None Include="Resources\VeggiePizza.jpg" />
     <None Include="Resources\VeganPizza.jpg" />
     <None Include="Resources\sprite.jpg" />
@@ -125,8 +118,6 @@
     <None Include="Resources\chickenBurger.jpg" />
     <None Include="Resources\beefBurger1.jpg" />
     <None Include="Resources\BeefPizza.jpg" />
-    <None Include="Resources\BillsActive.png" />
-    <None Include="Resources\BillsBtn.png" />
     <Content Include="Resources\CheeseBurger.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

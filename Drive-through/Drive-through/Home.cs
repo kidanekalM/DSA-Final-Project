@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace Drive_through
 {
-    public partial class HomePanel : Form
+    public partial class Home : Form
     {
-        public HomePanel()
+        public Home()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void gunaPanel3_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void gunaButton1_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Drive_through
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AdminMainPage());
+            Application.Run(new Form1());
         }
     }
 }

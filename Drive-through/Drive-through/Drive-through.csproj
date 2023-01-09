@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DrakeUI.Framework, Version=1.3.5.0, Culture=neutral, PublicKeyToken=32bd1f5d97424e1c, processorArchitecture=MSIL">
+      <HintPath>..\packages\DrakeUI.Framework.1.3.5\lib\net45\DrakeUI.Framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -62,6 +65,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FoodDisplay.resx">
@@ -69,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,6 +92,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -94,6 +107,21 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\icons8-logout-60.png" />
+    <None Include="Resources\icons8-logout-48.png" />
+    <None Include="Resources\icons8-dashboard-60.png" />
+    <None Include="Resources\icons8-dashboard-48.png" />
+    <None Include="Resources\icons8-home-page-48.png" />
+    <None Include="Resources\icons8-home-page-60.png" />
+    <None Include="Resources\icons8-gas-48.png" />
+    <None Include="Resources\icons8-hamburger-481.png" />
+    <None Include="Resources\icons8-pizza-48 %281%29.png" />
+    <None Include="Resources\icons8-cold-drink-48 %281%29.png" />
+    <None Include="Resources\icons8-cold-drink-48.png" />
+    <None Include="Resources\icons8-pizza-48.png" />
+    <None Include="Resources\icons8-hamburger-48.png" />
+    <None Include="Resources\icons8-fire-48.png" />
+    <None Include="Resources\icons8-cold-drink-64.png" />
     <None Include="Resources\VeggiePizza.jpg" />
     <None Include="Resources\VeganPizza.jpg" />
     <None Include="Resources\sprite.jpg" />

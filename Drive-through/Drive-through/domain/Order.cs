@@ -9,6 +9,7 @@ namespace Drive_through.domain
 {
     internal class Order
     {
+        public Order() { }
         public int OrderID { get; set; }
         
         private List<Food> _foods;

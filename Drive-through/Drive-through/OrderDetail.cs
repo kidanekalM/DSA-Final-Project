@@ -16,10 +16,16 @@ namespace Drive_through
         {
             InitializeComponent();
         }
+       
 
         private void OrderDetail_Load(object sender, EventArgs e)
         {
-            
+            domain.Order o = new domain.Order();
+            domain.Food f = new domain.Food();
+            this.label1.Text = f.Name;
+            this.label5.Text = o.TotalPrice.ToString();
+            this.label3.Text = o.TotalTime.ToString();
+
         }
     }
 }

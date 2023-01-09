@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Drive_through.domain;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,17 +20,29 @@ namespace Drive_through
 
         private void DashboardPanel_Load(object sender, EventArgs e)
         {
-            OrderDetail p = new OrderDetail();
+            List<Order> p = new List<Order>();
+            try
+            {
+                foreach(var order in p)
+                {
+                    OrderDetail o = new OrderDetail();
 
-            OrdersListContainer.Controls.Add(p);
+                    OrdersListContainer.Controls.Add(o);
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
             
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
-            OrderDetail p = new OrderDetail();
+            /*OrderDetail p = new OrderDetail();
        
-            OrdersListContainer.Controls.Add(p);
+            OrdersListContainer.Controls.Add(p);*/
         }
 
         private void txtSearchByName_Enter(object sender, EventArgs e)
@@ -40,6 +53,23 @@ namespace Drive_through
         private void txtSearchByName_Leave(object sender, EventArgs e)
         {
             txtSearchByName.Text = "Search for Order";
+
+        }
+
+        private void Search_Click(object sender, EventArgs e)
+        {
+            Food f = new Food();
+            if(string.IsNullOrEmpty(txtSearchByName.Text))
+            {
+                errorProvider1.SetError(pictureBox3, "Enter a valid name!");
+            }
+            else
+            {
+                errorProvider1.Clear();
+                f.Search(txtSearchByName.Text);
+
+            }
+
 
         }
     }

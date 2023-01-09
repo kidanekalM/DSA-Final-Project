@@ -21,7 +21,7 @@ namespace Drive_through.domain
         public static List<Food> Burgers = new List<Food>();
         public static List<Food> Pizza = new List<Food>();
         public static List<Food> Drinks = new List<Food>();
-        Food() { }
+        public Food() { }
         static Food()
         {
             /***
@@ -176,7 +176,7 @@ namespace Drive_through.domain
 
         }
 
-        Food Search(string Name)
+        public Food Search(string Name)
         {
             return FoodTree.Search(Name);
         }

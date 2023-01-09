@@ -16,6 +16,21 @@ namespace Drive_through.domain
     {
         Node<T> front;
         Node<T> back;
+
+        void Enqueue(T dt)
+        {
+            Node<T> newNode = new Node<T>();
+            newNode.data = dt;
+            newNode.next = null;
+            if (front == null)
+                front = back = newNode;
+            else
+            {
+                back.next = newNode;
+                back = newNode;
+            }
+        }
+
         T Dequeue()
         {
             Node<T> temp = front;
@@ -28,7 +43,7 @@ namespace Drive_through.domain
 
         bool isEmpty()
         {
-            if(front == null)
+            if (front == null)
             {
                 return true;
             }

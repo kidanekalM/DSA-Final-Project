@@ -121,8 +121,8 @@
   <data name="LogoutBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LogoutBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ambo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ambo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="VeganPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VeganPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NotificationBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NotificationBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,9 +136,6 @@
   <data name="fanta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fanta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cokeDrink" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cokeDrink.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sprite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -150,6 +147,9 @@
   </data>
   <data name="CheeseBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CheeseBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BillActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BillActive1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="beefBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\beefBurger1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,6 +190,9 @@
   <data name="SpecialPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SpecialPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cokeDrink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cokeDrink.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BillsActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BillsActive1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -208,8 +211,8 @@
   <data name="BeefPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BeefPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="VeganPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\VeganPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ambo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ambo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HomeActiveBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HomeActiveBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,7 +220,7 @@
   <data name="veggieBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\veggieBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BillActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BillActive1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GarbageCan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GarbageCan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

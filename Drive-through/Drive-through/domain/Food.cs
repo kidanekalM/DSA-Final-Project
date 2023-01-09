@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Drive_through.domain
 {
 
-    internal class Food
+    public class Food
     {
         public Image FoodPic { get; set; }
         public string FoodType { get; set; }

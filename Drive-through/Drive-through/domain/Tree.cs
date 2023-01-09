@@ -7,7 +7,7 @@ using System.Windows.Forms.VisualStyles;
 
 namespace Drive_through.domain
 {
-    class TreeNode
+    public class TreeNode
     {
         public Food data;
         public TreeNode left;
@@ -18,7 +18,7 @@ namespace Drive_through.domain
             data = item;
         }
     }
-    internal class Tree
+    public class Tree
     {
         public TreeNode root;
         public Food Search(string name)

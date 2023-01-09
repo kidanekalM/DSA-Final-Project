@@ -92,6 +92,12 @@
     <Compile Include="OrderDetail.Designer.cs">
       <DependentUpon>OrderDetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="OrderMenuItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrderMenuItem.Designer.cs">
+      <DependentUpon>OrderMenuItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AdminMainPage.resx">
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OrderDetail.resx">
       <DependentUpon>OrderDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderMenuItem.resx">
+      <DependentUpon>OrderMenuItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -148,6 +157,7 @@
     <None Include="Resources\DashboardActive1.png" />
     <Content Include="Resources\DashboardBtn.png" />
     <None Include="Resources\DashboardBtn1.png" />
+    <None Include="Resources\GarbageCan.jpg" />
     <Content Include="Resources\HomeActiveBtn.png" />
     <None Include="Resources\HomeActiveBtn1.png" />
     <Content Include="Resources\HomeBtn.png" />

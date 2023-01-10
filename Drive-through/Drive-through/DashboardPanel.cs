@@ -25,9 +25,9 @@ namespace Drive_through
             {
                 foreach(var order in p)
                 {
-                    OrderDetail o = new OrderDetail();
+                   // OrderDetail o = new OrderDetail();
 
-                    OrdersListContainer.Controls.Add(o);
+                   //OrdersListContainer.Controls.Add(o);
                 }
             }
             catch(Exception ex)

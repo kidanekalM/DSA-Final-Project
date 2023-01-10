@@ -86,17 +86,11 @@
     <Compile Include="HomePanel.Designer.cs">
       <DependentUpon>HomePanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrderDetail.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="LoginPage.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OrderDetail.Designer.cs">
-      <DependentUpon>OrderDetail.cs</DependentUpon>
-    </Compile>
-    <Compile Include="OrderMenuItem.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="OrderMenuItem.Designer.cs">
-      <DependentUpon>OrderMenuItem.cs</DependentUpon>
+    <Compile Include="LoginPage.designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -118,11 +112,8 @@
     <EmbeddedResource Include="HomePanel.resx">
       <DependentUpon>HomePanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OrderDetail.resx">
-      <DependentUpon>OrderDetail.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OrderMenuItem.resx">
-      <DependentUpon>OrderMenuItem.cs</DependentUpon>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -148,24 +139,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\SupportBtn1.png" />
-    <None Include="Resources\BillsActive1.png" />
-    <None Include="Resources\BillActive1.png" />
     <Content Include="Resources\BillsBtn.png" />
-    <None Include="Resources\BillsBtn1.png" />
     <Content Include="Resources\DashboardActive.png" />
-    <None Include="Resources\DashboardActive1.png" />
     <Content Include="Resources\DashboardBtn.png" />
-    <None Include="Resources\DashboardBtn1.png" />
-    <None Include="Resources\GarbageCan.jpg" />
     <Content Include="Resources\HomeActiveBtn.png" />
-    <None Include="Resources\HomeActiveBtn1.png" />
     <Content Include="Resources\HomeBtn.png" />
-    <None Include="Resources\HomeBtn1.png" />
     <Content Include="Resources\LogoutBtn.png" />
-    <None Include="Resources\LogoutBtn1.png" />
     <Content Include="Resources\NotificationBtn.png" />
-    <None Include="Resources\NotificationBtn1.png" />
     <Content Include="Resources\SupportBtn.png" />
     <None Include="Resources\VeggiePizza.jpg" />
     <None Include="Resources\VeganPizza.jpg" />

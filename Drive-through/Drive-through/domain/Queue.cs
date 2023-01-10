@@ -50,5 +50,18 @@ namespace Drive_through.domain
             return false;
         }
 
+        T frontOfQueue()
+        {
+            if (isEmpty())
+            {
+                return default(T);
+            }
+            else
+            {
+                Node<T> tem = front;
+                return tem.data; ;
+            }
+        }
+
     }
 }

@@ -45,22 +45,25 @@
             // 
             // lbl_Name
             // 
-            this.lbl_Name.AutoSize = true;
+            this.lbl_Name.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Name.Location = new System.Drawing.Point(3, 73);
             this.lbl_Name.Name = "lbl_Name";
-            this.lbl_Name.Size = new System.Drawing.Size(55, 20);
+            this.lbl_Name.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lbl_Name.Size = new System.Drawing.Size(94, 20);
             this.lbl_Name.TabIndex = 1;
             this.lbl_Name.Text = "Name";
+            this.lbl_Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl_price
             // 
-            this.lbl_price.AutoSize = true;
+            this.lbl_price.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_price.Location = new System.Drawing.Point(4, 93);
             this.lbl_price.Name = "lbl_price";
-            this.lbl_price.Size = new System.Drawing.Size(31, 13);
+            this.lbl_price.Size = new System.Drawing.Size(93, 13);
             this.lbl_price.TabIndex = 2;
             this.lbl_price.Text = "Price";
+            this.lbl_price.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FoodDisplay
             // 
@@ -73,7 +76,6 @@
             this.Size = new System.Drawing.Size(100, 118);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

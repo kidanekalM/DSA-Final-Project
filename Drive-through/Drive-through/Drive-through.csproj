@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -33,9 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DrakeUI.Framework, Version=1.3.5.0, Culture=neutral, PublicKeyToken=32bd1f5d97424e1c, processorArchitecture=MSIL">
+      <Reference Include="DrakeUI.Framework, Version=1.3.5.0, Culture=neutral, PublicKeyToken=32bd1f5d97424e1c, processorArchitecture=MSIL">
       <HintPath>..\packages\DrakeUI.Framework.1.3.5\lib\net45\DrakeUI.Framework.dll</HintPath>
     </Reference>
+
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+      <None Include="packages.config" />
     <Compile Include="AdminMainPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +63,12 @@
     <Compile Include="BillsPanel.Designer.cs">
       <DependentUpon>BillsPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="DashboardPanel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +76,7 @@
       <DependentUpon>DashboardPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="domain\Food.cs" />
+    <Compile Include="domain\HomeEvents.cs" />
     <Compile Include="domain\Order.cs" />
     <Compile Include="domain\Queue.cs" />
     <Compile Include="domain\Tree.cs" />
@@ -89,11 +98,17 @@
     <Compile Include="HomePanel.Designer.cs">
       <DependentUpon>HomePanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginPage.cs">
-      <SubType>Form</SubType>
+    <Compile Include="OrderDetail.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="LoginPage.designer.cs">
-      <DependentUpon>LoginPage.cs</DependentUpon>
+    <Compile Include="OrderDetail.Designer.cs">
+      <DependentUpon>OrderDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderMenuItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrderMenuItem.Designer.cs">
+      <DependentUpon>OrderMenuItem.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -115,8 +130,11 @@
     <EmbeddedResource Include="HomePanel.resx">
       <DependentUpon>HomePanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginPage.resx">
-      <DependentUpon>LoginPage.cs</DependentUpon>
+    <EmbeddedResource Include="OrderDetail.resx">
+      <DependentUpon>OrderDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderMenuItem.resx">
+      <DependentUpon>OrderMenuItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -128,7 +146,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -143,11 +160,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\BillsBtn.png" />
-    <Content Include="Resources\DashboardActive.png" />
-    <Content Include="Resources\DashboardBtn.png" />
-    <Content Include="Resources\HomeActiveBtn.png" />
-    <Content Include="Resources\HomeBtn.png" />
+  
+
+
     <None Include="Resources\icons8-beef-burger-48.png" />
     <None Include="Resources\icons8-beef-burger-64.png" />
     <None Include="Resources\icons8-pizza-48.png" />
@@ -157,8 +172,24 @@
     <None Include="Resources\icons8-soft-drinks-40.png" />
     <None Include="Resources\icons8-soft-drinks-64.png" />
     <None Include="Resources\icons8-soft-drinks-48.png" />
+    <None Include="Resources\SupportBtn1.png" />
+    <None Include="Resources\BillsActive1.png" />
+    <None Include="Resources\BillActive1.png" />
+    <Content Include="Resources\BillsBtn.png" />
+    <None Include="Resources\BillsBtn1.png" />
+    <Content Include="Resources\DashboardActive.png" />
+    <None Include="Resources\DashboardActive1.png" />
+    <Content Include="Resources\DashboardBtn.png" />
+    <None Include="Resources\DashboardBtn1.png" />
+    <None Include="Resources\GarbageCan.jpg" />
+    <Content Include="Resources\HomeActiveBtn.png" />
+    <None Include="Resources\HomeActiveBtn1.png" />
+    <Content Include="Resources\HomeBtn.png" />
+    <None Include="Resources\HomeBtn1.png" />
     <Content Include="Resources\LogoutBtn.png" />
+    <None Include="Resources\LogoutBtn1.png" />
     <Content Include="Resources\NotificationBtn.png" />
+    <None Include="Resources\NotificationBtn1.png" />
     <Content Include="Resources\SupportBtn.png" />
     <None Include="Resources\VeggiePizza.jpg" />
     <None Include="Resources\VeganPizza.jpg" />

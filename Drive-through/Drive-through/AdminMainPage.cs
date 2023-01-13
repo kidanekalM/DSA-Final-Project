@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DS_Project_Trial;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,9 +46,9 @@ namespace Drive_through
 
         private void BtnPbHome_Click(object sender, EventArgs e)
         {
-           BtnPbHome.Image = global::Drive_through.Properties.Resources.HomeActiveBtn;
-           BtnPbDashboard.Image = global::Drive_through.Properties.Resources.DashboardBtn;
-           BtnPbBills.Image = global::Drive_through.Properties.Resources.BillsBtn;
+            BtnPbHome.Image = global::Drive_through.Properties.Resources.HomeActiveBtn;
+            BtnPbDashboard.Image = global::Drive_through.Properties.Resources.DashboardBtn;
+            BtnPbBills.Image = global::Drive_through.Properties.Resources.BillsBtn;
             openChildForm(new HomePanel());
         }
 
@@ -67,6 +68,13 @@ namespace Drive_through
             BtnPbBills.Image = global::Drive_through.Properties.Resources.BillActive;
             openChildForm(new BillsPanel());
 
+        }
+
+        private void BtnPbLogOut_Click(object sender, EventArgs e)
+        {
+            LoginPage lp = new LoginPage();
+            lp.Show();
+            this.Hide();
         }
     }
 }

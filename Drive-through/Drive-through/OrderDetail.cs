@@ -14,6 +14,8 @@ namespace Drive_through
     public partial class OrderDetail : UserControl
     {
         public domain.Order order;
+
+        public int totalTime;
         public OrderDetail()
         {
             InitializeComponent();
@@ -21,6 +23,7 @@ namespace Drive_through
         public OrderDetail(domain.Order ord)
         {
             order= ord;
+            totalTime = order.TotalTime;
             InitializeComponent();
             timer1.Start();
 
@@ -54,17 +57,17 @@ namespace Drive_through
         {
             if(order != null)
             {
-                if(order.TotalTime > 0)
+                if(totalTime > 0)
                 {
-                    MessageBox.Show(order.TotalTime+"");
-                    order.TotalTime--;
-                    label3.Text = order.TotalTime.ToString();
+                    //MessageBox.Show(totalTime + "");
+                    totalTime -= 1;
+                    label3.Text = totalTime.ToString();
                     
                     Order.queue.Dequeue();
                 }
                 else
                 {
-                    label3.Text = order.TotalTime.ToString();
+                    label3.Text = totalTime.ToString();
                     this.Dispose();
                 }
             }

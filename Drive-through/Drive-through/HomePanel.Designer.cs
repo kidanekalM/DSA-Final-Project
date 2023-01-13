@@ -44,10 +44,13 @@
             this.ShowBillsPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lbl_total = new System.Windows.Forms.Label();
-            this.pic_chargePrice = new System.Windows.Forms.PictureBox();
+            this.txt_OrdName = new DrakeUI.Framework.DrakeUITextBox();
+            this.lbl_time = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.pic_chargePrice = new System.Windows.Forms.PictureBox();
+            this.lbl_total = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.btn_search = new DrakeUI.Framework.DrakeUIButton();
             this.foodDisplay1 = new Drive_through.FoodDisplay();
             this.foodDisplay2 = new Drive_through.FoodDisplay();
@@ -57,9 +60,6 @@
             this.foodDisplay6 = new Drive_through.FoodDisplay();
             this.foodDisplay7 = new Drive_through.FoodDisplay();
             this.foodDisplay8 = new Drive_through.FoodDisplay();
-            this.lbl_time = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txt_OrdName = new DrakeUI.Framework.DrakeUITextBox();
             ((System.ComponentModel.ISupportInitialize)(this.drakeUIImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.drakeUIImageButton3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.drakeUIImageButton1)).BeginInit();
@@ -282,38 +282,44 @@
             this.panel1.Size = new System.Drawing.Size(320, 188);
             this.panel1.TabIndex = 19;
             // 
-            // label1
+            // txt_OrdName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(16, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Total ";
+            this.txt_OrdName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_OrdName.FillColor = System.Drawing.Color.White;
+            this.txt_OrdName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txt_OrdName.Location = new System.Drawing.Point(82, 86);
+            this.txt_OrdName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_OrdName.Maximum = 2147483647D;
+            this.txt_OrdName.Minimum = -2147483648D;
+            this.txt_OrdName.Name = "txt_OrdName";
+            this.txt_OrdName.Padding = new System.Windows.Forms.Padding(5);
+            this.txt_OrdName.Radius = 20;
+            this.txt_OrdName.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(60)))));
+            this.txt_OrdName.RectDisableColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.txt_OrdName.Size = new System.Drawing.Size(150, 26);
+            this.txt_OrdName.Style = DrakeUI.Framework.UIStyle.Green;
+            this.txt_OrdName.TabIndex = 6;
+            this.txt_OrdName.Text = "Name";
             // 
-            // lbl_total
+            // lbl_time
             // 
-            this.lbl_total.AutoSize = true;
-            this.lbl_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_total.Location = new System.Drawing.Point(234, 20);
-            this.lbl_total.Name = "lbl_total";
-            this.lbl_total.Size = new System.Drawing.Size(54, 24);
-            this.lbl_total.TabIndex = 1;
-            this.lbl_total.Text = "$000";
+            this.lbl_time.AutoSize = true;
+            this.lbl_time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_time.Location = new System.Drawing.Point(234, 44);
+            this.lbl_time.Name = "lbl_time";
+            this.lbl_time.Size = new System.Drawing.Size(58, 20);
+            this.lbl_time.TabIndex = 5;
+            this.lbl_time.Text = "0000m";
             // 
-            // pic_chargePrice
+            // label8
             // 
-            this.pic_chargePrice.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pic_chargePrice.Image = ((System.Drawing.Image)(resources.GetObject("pic_chargePrice.Image")));
-            this.pic_chargePrice.Location = new System.Drawing.Point(64, 119);
-            this.pic_chargePrice.Margin = new System.Windows.Forms.Padding(2);
-            this.pic_chargePrice.Name = "pic_chargePrice";
-            this.pic_chargePrice.Size = new System.Drawing.Size(195, 39);
-            this.pic_chargePrice.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pic_chargePrice.TabIndex = 2;
-            this.pic_chargePrice.TabStop = false;
-            this.pic_chargePrice.Click += new System.EventHandler(this.pic_chargePrice_Click);
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(16, 41);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(79, 20);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "Wait Time";
             // 
             // label6
             // 
@@ -329,6 +335,39 @@
             this.label6.TabIndex = 3;
             this.label6.Text = "Charge Price";
             this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // pic_chargePrice
+            // 
+            this.pic_chargePrice.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_chargePrice.Image = ((System.Drawing.Image)(resources.GetObject("pic_chargePrice.Image")));
+            this.pic_chargePrice.Location = new System.Drawing.Point(50, 119);
+            this.pic_chargePrice.Margin = new System.Windows.Forms.Padding(2);
+            this.pic_chargePrice.Name = "pic_chargePrice";
+            this.pic_chargePrice.Size = new System.Drawing.Size(206, 42);
+            this.pic_chargePrice.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pic_chargePrice.TabIndex = 2;
+            this.pic_chargePrice.TabStop = false;
+            this.pic_chargePrice.Click += new System.EventHandler(this.pic_chargePrice_Click);
+            // 
+            // lbl_total
+            // 
+            this.lbl_total.AutoSize = true;
+            this.lbl_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_total.Location = new System.Drawing.Point(234, 20);
+            this.lbl_total.Name = "lbl_total";
+            this.lbl_total.Size = new System.Drawing.Size(54, 24);
+            this.lbl_total.TabIndex = 1;
+            this.lbl_total.Text = "$000";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(16, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Total ";
             // 
             // btn_search
             // 
@@ -434,45 +473,6 @@
             this.foodDisplay8.Name = "foodDisplay8";
             this.foodDisplay8.Size = new System.Drawing.Size(129, 148);
             this.foodDisplay8.TabIndex = 8;
-            // 
-            // lbl_time
-            // 
-            this.lbl_time.AutoSize = true;
-            this.lbl_time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_time.Location = new System.Drawing.Point(234, 44);
-            this.lbl_time.Name = "lbl_time";
-            this.lbl_time.Size = new System.Drawing.Size(58, 20);
-            this.lbl_time.TabIndex = 5;
-            this.lbl_time.Text = "0000m";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(16, 41);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(79, 20);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "Wait Time";
-            // 
-            // txt_OrdName
-            // 
-            this.txt_OrdName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_OrdName.FillColor = System.Drawing.Color.White;
-            this.txt_OrdName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txt_OrdName.Location = new System.Drawing.Point(82, 86);
-            this.txt_OrdName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txt_OrdName.Maximum = 2147483647D;
-            this.txt_OrdName.Minimum = -2147483648D;
-            this.txt_OrdName.Name = "txt_OrdName";
-            this.txt_OrdName.Padding = new System.Windows.Forms.Padding(5);
-            this.txt_OrdName.Radius = 20;
-            this.txt_OrdName.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(142)))), ((int)(((byte)(60)))));
-            this.txt_OrdName.RectDisableColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.txt_OrdName.Size = new System.Drawing.Size(150, 26);
-            this.txt_OrdName.Style = DrakeUI.Framework.UIStyle.Green;
-            this.txt_OrdName.TabIndex = 6;
-            this.txt_OrdName.Text = "Name";
             // 
             // HomePanel
             // 

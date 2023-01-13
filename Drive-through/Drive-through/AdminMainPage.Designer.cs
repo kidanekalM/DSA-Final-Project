@@ -68,7 +68,7 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(84, 591);
             this.panel1.TabIndex = 0;
@@ -77,7 +77,7 @@
             // 
             this.panel7.Controls.Add(this.BtnPbLogOut);
             this.panel7.Location = new System.Drawing.Point(16, 505);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(53, 52);
             this.panel7.TabIndex = 2;
@@ -87,7 +87,7 @@
             this.BtnPbLogOut.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnPbLogOut.Image = ((System.Drawing.Image)(resources.GetObject("BtnPbLogOut.Image")));
             this.BtnPbLogOut.Location = new System.Drawing.Point(0, 0);
-            this.BtnPbLogOut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnPbLogOut.Margin = new System.Windows.Forms.Padding(2);
             this.BtnPbLogOut.Name = "BtnPbLogOut";
             this.BtnPbLogOut.Size = new System.Drawing.Size(53, 52);
             this.BtnPbLogOut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -98,7 +98,7 @@
             // 
             this.panel6.Controls.Add(this.BtnPbSupport);
             this.panel6.Location = new System.Drawing.Point(16, 310);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(53, 52);
             this.panel6.TabIndex = 1;
@@ -109,7 +109,7 @@
             this.BtnPbSupport.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnPbSupport.Image = ((System.Drawing.Image)(resources.GetObject("BtnPbSupport.Image")));
             this.BtnPbSupport.Location = new System.Drawing.Point(0, 0);
-            this.BtnPbSupport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnPbSupport.Margin = new System.Windows.Forms.Padding(2);
             this.BtnPbSupport.Name = "BtnPbSupport";
             this.BtnPbSupport.Size = new System.Drawing.Size(53, 52);
             this.BtnPbSupport.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -120,7 +120,7 @@
             // 
             this.panel5.Controls.Add(this.BtnPbNotification);
             this.panel5.Location = new System.Drawing.Point(16, 245);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(53, 52);
             this.panel5.TabIndex = 1;
@@ -131,7 +131,7 @@
             this.BtnPbNotification.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnPbNotification.Image = ((System.Drawing.Image)(resources.GetObject("BtnPbNotification.Image")));
             this.BtnPbNotification.Location = new System.Drawing.Point(0, 0);
-            this.BtnPbNotification.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnPbNotification.Margin = new System.Windows.Forms.Padding(2);
             this.BtnPbNotification.Name = "BtnPbNotification";
             this.BtnPbNotification.Size = new System.Drawing.Size(53, 52);
             this.BtnPbNotification.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -142,7 +142,7 @@
             // 
             this.panel4.Controls.Add(this.BtnPbBills);
             this.panel4.Location = new System.Drawing.Point(16, 181);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(53, 52);
             this.panel4.TabIndex = 1;
@@ -153,7 +153,7 @@
             this.BtnPbBills.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnPbBills.Image = ((System.Drawing.Image)(resources.GetObject("BtnPbBills.Image")));
             this.BtnPbBills.Location = new System.Drawing.Point(0, 0);
-            this.BtnPbBills.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnPbBills.Margin = new System.Windows.Forms.Padding(2);
             this.BtnPbBills.Name = "BtnPbBills";
             this.BtnPbBills.Size = new System.Drawing.Size(53, 52);
             this.BtnPbBills.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -165,7 +165,7 @@
             // 
             this.panel3.Controls.Add(this.BtnPbDashboard);
             this.panel3.Location = new System.Drawing.Point(16, 117);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(53, 52);
             this.panel3.TabIndex = 1;
@@ -176,7 +176,7 @@
             this.BtnPbDashboard.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnPbDashboard.Image = ((System.Drawing.Image)(resources.GetObject("BtnPbDashboard.Image")));
             this.BtnPbDashboard.Location = new System.Drawing.Point(0, 0);
-            this.BtnPbDashboard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnPbDashboard.Margin = new System.Windows.Forms.Padding(2);
             this.BtnPbDashboard.Name = "BtnPbDashboard";
             this.BtnPbDashboard.Size = new System.Drawing.Size(53, 52);
             this.BtnPbDashboard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -188,7 +188,7 @@
             // 
             this.panel2.Controls.Add(this.BtnPbHome);
             this.panel2.Location = new System.Drawing.Point(16, 52);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(53, 52);
             this.panel2.TabIndex = 0;
@@ -199,7 +199,7 @@
             this.BtnPbHome.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnPbHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnPbHome.Image")));
             this.BtnPbHome.Location = new System.Drawing.Point(0, 0);
-            this.BtnPbHome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnPbHome.Margin = new System.Windows.Forms.Padding(2);
             this.BtnPbHome.Name = "BtnPbHome";
             this.BtnPbHome.Size = new System.Drawing.Size(53, 52);
             this.BtnPbHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -211,7 +211,7 @@
             // 
             this.panelChildForm.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.panelChildForm.Location = new System.Drawing.Point(86, 0);
-            this.panelChildForm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelChildForm.Margin = new System.Windows.Forms.Padding(2);
             this.panelChildForm.Name = "panelChildForm";
             this.panelChildForm.Size = new System.Drawing.Size(1029, 591);
             this.panelChildForm.TabIndex = 3;
@@ -224,7 +224,7 @@
             this.ClientSize = new System.Drawing.Size(1093, 591);
             this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AdminMainPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminMainPage";

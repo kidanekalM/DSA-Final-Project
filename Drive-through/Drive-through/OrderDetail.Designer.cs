@@ -49,7 +49,7 @@
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(58, 247);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(122, 36);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -75,7 +75,7 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(70, 221);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(26, 26);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -159,13 +159,14 @@
             this.OrderList.AutoScroll = true;
             this.OrderList.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.OrderList.Location = new System.Drawing.Point(13, 35);
-            this.OrderList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.OrderList.Margin = new System.Windows.Forms.Padding(2);
             this.OrderList.Name = "OrderList";
             this.OrderList.Size = new System.Drawing.Size(216, 139);
             this.OrderList.TabIndex = 10;
             // 
             // timer1
             // 
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // OrderDetail
@@ -182,7 +183,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "OrderDetail";
             this.Size = new System.Drawing.Size(240, 292);
             this.Load += new System.EventHandler(this.OrderDetail_Load);

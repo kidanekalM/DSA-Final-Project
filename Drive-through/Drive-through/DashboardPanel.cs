@@ -74,11 +74,14 @@ namespace Drive_through
         public void AddOrder(Order order)
         {
             MessageBox.Show("Order added for " + order.OrderName);
-            OrderDetail ordet = new OrderDetail(order);
-            if (!Order.queue.isEmpty())
-                order.TotalTime += Order.queue.getBack().TotalTime; 
+            OrderDetail ordetail = new OrderDetail(order);
+            if(OrdersListContainer.Controls.Count > 0)
+            {
+                OrderDetail last  = (OrderDetail)OrdersListContainer.Controls[OrdersListContainer.Controls.Count - 1];
+                ordetail.totalTime = order.TotalTime + last.totalTime;
+            }
             Order.queue.Enqueue(order);
-            OrdersListContainer.Controls.Add(ordet);
+            OrdersListContainer.Controls.Add(ordetail);
         }
     }
 }

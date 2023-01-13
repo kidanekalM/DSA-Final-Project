@@ -1,0 +1,12 @@
+Drive through application using Queue 
+and tree for searching
+
+Group Members
+1.	Eyuel Solomon                  TK1656
+2.	Hamzah Abdo                    LV0342
+3.	Hawariaw Paulos                TT5916
+4.	Henok Bekele                   FR3323
+5.	Kalid Nuredin                  CO6274
+6.	Kidanekal Melkam               IK5907
+7.	Kidus Paulos                   OR0411
+

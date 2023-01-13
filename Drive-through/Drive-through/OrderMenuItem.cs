@@ -13,6 +13,7 @@ namespace Drive_through
 {
     public partial class OrderMenuItem : UserControl
     {
+        public string foodName;
         private EventHandler onDelClick;
 
         public EventHandler OnDelClick
@@ -23,7 +24,7 @@ namespace Drive_through
             }
         }
         private EventHandler onEditClick;
-
+        public PictureBox PictureBoxpic_del;
         public EventHandler OnEditClick
         {
             get { return onEditClick; }
@@ -33,8 +34,10 @@ namespace Drive_through
         public OrderMenuItem()
         {
             InitializeComponent();
+            PictureBoxpic_del = pic_del;
             Food f = Food.Burgers.First();
             int amount = 2;
+            foodName = f.Name;
             pic_food.Image = f.FoodPic;
             lbl_name.Text = f.Name;
             lbl_price.Text = "$" + f.Price.ToString();
@@ -44,8 +47,10 @@ namespace Drive_through
         public OrderMenuItem(Food f, int amount)
         {
             InitializeComponent();
+            PictureBoxpic_del = pic_del;
             pic_food.Image = f.FoodPic;
             lbl_name.Text = f.Name;
+            foodName = f.Name;
             lbl_price.Text = "$" + f.Price.ToString();
             lbl_amount.Text ="X" + amount.ToString();
             lbl_Total.Text = "$" + (f.Price * amount).ToString();

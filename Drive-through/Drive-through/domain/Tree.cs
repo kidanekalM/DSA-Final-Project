@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
 
 namespace Drive_through.domain
@@ -27,11 +28,12 @@ namespace Drive_through.domain
             Food SearchResult = null;
             while(temp != null)
             {
-                
+                //MessageBox.Show("Food is "+ temp.data.Name);
                 int result = string.Compare(temp.data.Name, name, true);
                 if (result == 0)
                 {
                     SearchResult = temp.data;
+                    break;
                 }
                 else if (result > 0)
                 {

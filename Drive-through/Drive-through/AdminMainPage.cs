@@ -12,10 +12,11 @@ namespace Drive_through
 {
     public partial class AdminMainPage : Form
     {
+        public DashboardPanel dashboardPanel = new DashboardPanel();
         public AdminMainPage()
         {
             InitializeComponent();
-            openChildForm(new HomePanel());
+            openChildForm(new HomePanel(dashboardPanel));
         }
 
         private void AdminMainPage_Load(object sender, EventArgs e)
@@ -27,7 +28,7 @@ namespace Drive_through
         private void openChildForm(Form childForm)
         {
             if (activeForm != null)
-                activeForm.Close();
+                activeForm.Hide();
             activeForm = childForm;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
@@ -48,7 +49,7 @@ namespace Drive_through
            BtnPbHome.Image = global::Drive_through.Properties.Resources.HomeActiveBtn;
            BtnPbDashboard.Image = global::Drive_through.Properties.Resources.DashboardBtn;
            BtnPbBills.Image = global::Drive_through.Properties.Resources.BillsBtn;
-            openChildForm(new HomePanel());
+            openChildForm(new HomePanel(dashboardPanel));
         }
 
         private void BtnPbDashboard_Click(object sender, EventArgs e)
@@ -56,7 +57,7 @@ namespace Drive_through
             BtnPbHome.Image = global::Drive_through.Properties.Resources.HomeBtn;
             BtnPbDashboard.Image = global::Drive_through.Properties.Resources.DashboardActive;
             BtnPbBills.Image = global::Drive_through.Properties.Resources.BillsBtn;
-            openChildForm(new DashboardPanel());
+            openChildForm(dashboardPanel);
 
         }
 

@@ -7,16 +7,19 @@ using System.Threading.Tasks;
 
 namespace Drive_through.domain
 {
-    internal class Order
+    public class Order
     {
+
+        public static domain.Queue<domain.Order> queue = new domain.Queue<domain.Order>();
         public Order() { }
-        public int OrderID { get; set; }
+        public string OrderName { get; set; }
         
         private List<Food> _foods;
         public List<Food> Foods 
         {
             get { return _foods; }
             set { _foods = value;
+                _totalPrice = _totalTime = 0;
                 foreach(Food food in _foods)
                 {
                     _totalTime += food.TimeInMin;
@@ -28,15 +31,26 @@ namespace Drive_through.domain
         public int TotalTime
         {
             set { _totalTime = value; }
-            get { return _totalTime; }
+            get {
+                    _totalTime = 0;
+                foreach (Food food in _foods)
+                {
+                    _totalTime += food.TimeInMin;
+                }
+                return _totalTime; }
         }
 
         private double _totalPrice;
         public double TotalPrice
         {
-            get { return _totalPrice; }
+            get {
+                    _totalPrice = 0;
+                foreach (Food food in _foods)
+                {
+                    _totalPrice += food.Price;
+                }
+                return _totalPrice; }
         }
-
 
     }
 }

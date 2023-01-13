@@ -53,7 +53,6 @@ namespace Drive_through
         private void txtSearchByName_Leave(object sender, EventArgs e)
         {
             txtSearchByName.Text = "Search for Order";
-
         }
 
         private void Search_Click(object sender, EventArgs e)
@@ -71,6 +70,15 @@ namespace Drive_through
             }
 
 
+        }
+        public void AddOrder(Order order)
+        {
+            MessageBox.Show("Order added for " + order.OrderName);
+            OrderDetail ordet = new OrderDetail(order);
+            if (!Order.queue.isEmpty())
+                order.TotalTime += Order.queue.getBack().TotalTime; 
+            Order.queue.Enqueue(order);
+            OrdersListContainer.Controls.Add(ordet);
         }
     }
 }

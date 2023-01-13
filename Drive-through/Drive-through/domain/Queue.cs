@@ -12,12 +12,21 @@ namespace Drive_through.domain
         public T data;
         public Node<T> next;
     }
-    internal class Queue<T>
+    public class Queue<T>
     {
         Node<T> front;
         Node<T> back;
 
-        void Enqueue(T dt)
+        public T getBack()
+        {
+            if(back != null)
+            {
+                return back.data;
+
+            }
+            return default(T);
+        }
+        public void Enqueue(T dt)
         {
             Node<T> newNode = new Node<T>();
             newNode.data = dt;
@@ -31,17 +40,21 @@ namespace Drive_through.domain
             }
         }
 
-        T Dequeue()
+        public T Dequeue()
         {
-            Node<T> temp = front;
-            front = front.next;
-            T curData = temp.data;
-            temp = null;
-            GC.Collect();
-            return curData;
+            if(front != null)
+            {
+                Node<T> temp = front;
+                front = front.next;
+                T curData = temp.data;
+                temp = null;
+                GC.Collect();
+                return curData;
+            }
+            return default;
         }
 
-        bool isEmpty()
+        public bool isEmpty()
         {
             if (front == null)
             {
@@ -50,7 +63,7 @@ namespace Drive_through.domain
             return false;
         }
 
-        T frontOfQueue()
+        public T frontOfQueue()
         {
             if (isEmpty())
             {

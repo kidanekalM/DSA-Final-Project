@@ -207,5 +207,10 @@ namespace Drive_through
         {
             pic_chargePrice_Click(sender, e);
         }
+
+        private void foodDisplay4_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -66,7 +66,7 @@ namespace Drive_through
             BtnPbHome.Image = global::Drive_through.Properties.Resources.HomeBtn;
             BtnPbDashboard.Image = global::Drive_through.Properties.Resources.DashboardBtn;
             BtnPbBills.Image = global::Drive_through.Properties.Resources.BillActive;
-            openChildForm(new BillsPanel());
+            openChildForm(new Home());
 
         }
     }

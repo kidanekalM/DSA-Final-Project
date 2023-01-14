@@ -19,7 +19,7 @@ namespace Drive_through.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -126,6 +126,26 @@ namespace Drive_through.Properties {
         internal static System.Drawing.Bitmap BillsBtn {
             get {
                 object obj = ResourceManager.GetObject("BillsBtn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Burger_active_icon {
+            get {
+                object obj = ResourceManager.GetObject("Burger-active-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Burger_icon {
+            get {
+                object obj = ResourceManager.GetObject("Burger-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -406,6 +426,26 @@ namespace Drive_through.Properties {
         internal static System.Drawing.Bitmap PerperonniPizza {
             get {
                 object obj = ResourceManager.GetObject("PerperonniPizza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_active_icon {
+            get {
+                object obj = ResourceManager.GetObject("Pizza-active-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_icon {
+            get {
+                object obj = ResourceManager.GetObject("Pizza-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

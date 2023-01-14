@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -33,10 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-      <Reference Include="DrakeUI.Framework, Version=1.3.5.0, Culture=neutral, PublicKeyToken=32bd1f5d97424e1c, processorArchitecture=MSIL">
+    <Reference Include="DrakeUI.Framework, Version=1.3.5.0, Culture=neutral, PublicKeyToken=32bd1f5d97424e1c, processorArchitecture=MSIL">
       <HintPath>..\packages\DrakeUI.Framework.1.3.5\lib\net45\DrakeUI.Framework.dll</HintPath>
     </Reference>
-
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,7 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-      <None Include="packages.config" />
+    <None Include="packages.config" />
     <Compile Include="AdminMainPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +61,12 @@
     </Compile>
     <Compile Include="BillsPanel.Designer.cs">
       <DependentUpon>BillsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginPage.cs">
       <SubType>Form</SubType>
@@ -127,6 +132,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomePanel.resx">
       <DependentUpon>HomePanel.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,9 +168,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-  
-
-
     <None Include="Resources\icons8-beef-burger-48.png" />
     <None Include="Resources\icons8-beef-burger-64.png" />
     <None Include="Resources\icons8-pizza-48.png" />
@@ -177,6 +182,8 @@
     <None Include="Resources\BillActive1.png" />
     <Content Include="Resources\BillsBtn.png" />
     <None Include="Resources\BillsBtn1.png" />
+    <None Include="Resources\Burger-active-icon.png" />
+    <None Include="Resources\Burger-icon.png" />
     <Content Include="Resources\DashboardActive.png" />
     <None Include="Resources\DashboardActive1.png" />
     <Content Include="Resources\DashboardBtn.png" />
@@ -190,6 +197,8 @@
     <None Include="Resources\LogoutBtn1.png" />
     <Content Include="Resources\NotificationBtn.png" />
     <None Include="Resources\NotificationBtn1.png" />
+    <None Include="Resources\Pizza-active-icon.png" />
+    <None Include="Resources\Pizza-icon.png" />
     <Content Include="Resources\SupportBtn.png" />
     <None Include="Resources\VeggiePizza.jpg" />
     <None Include="Resources\VeganPizza.jpg" />

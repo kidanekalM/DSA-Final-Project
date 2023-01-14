@@ -124,8 +124,14 @@
   <data name="LogoutBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LogoutBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Pizza-active-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza-active-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Ambo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ambo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Burger-active-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Burger-active-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NotificationBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NotificationBtn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,6 +181,9 @@
   <data name="PerperonniPizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PerperonniPizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-soft-drinks-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-soft-drinks-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="mirinda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mirinda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -223,6 +232,9 @@
   <data name="doubleBurger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doubleBurger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Pizza-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-fire-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-fire-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -247,7 +259,7 @@
   <data name="icons8-beef-burger-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-beef-burger-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-soft-drinks-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-soft-drinks-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Burger-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Burger-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
